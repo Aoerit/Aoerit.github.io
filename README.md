@@ -1,2 +1,2 @@
 # Aoerit.github.io
-business website
+business website  links with personal work too
