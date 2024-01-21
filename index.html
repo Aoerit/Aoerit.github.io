@@ -18,18 +18,67 @@
    
   <!-- The Main Website -->
     <div class="container d-flex flex-wrap justify-content-center">
-      <img src="Images/2024-logo-AoeritTM.png" class="logo-main"/>
+      <img src="Images/2024-logo-AoeritTM.png" id="logoMain"/>
     </div>
      <!--Navigation Bar -->
-    <nav class="py-2 bg-body-tertiary border-bottom">
-      <header class="py-3 mb-4 border-bottom">
-        
-      </header>
-    </nav>
+    <ul class="nav nav-pills nav-fill" id="navBar">
+		<li class="nav-item">
+			<a class="nav-link active" aria-current="page" href="#">Home</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Upcoming Projects</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Portfolio - Past Works</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">About Aoerit</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link disabled" aria-disabled="true">Extras</a>
+		</li>
+	</ul>
    <!--Main Body -->
-
-
-    
+   
+   <!--Logo/Brand Card -->
+   <div class = "container" id="logoCard">
+   <p class="placeholderText">Placeholder LogoCard</p>
+   </div>
+   
+   <!--Carousel -->
+	<div class="container" id="mainContent">
+		<div id="carouselMain" class="carousel slide">
+			<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="..." class="d-block w-100" alt="...">
+		</div>
+		<div class="carousel-item">
+		<img src="..." class="d-block w-100" alt="...">
+			</div>
+			<div class="carousel-item">
+		<img src="..." class="d-block w-100" alt="...">
+		</div>
+		</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselMain" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselMain" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</div>
+	<!--Video Card -->
+		<div class="container" id="videoContainer">
+			<iframe width="720" height="480" src="https://youtu.be/Y8LwIlGHHJE" id="videoPlayer">
+			</iframe>
+		</div>
+	<!--Footer -->
+		<div class="container" id="footerBar">
+		<p class="placeholderText">Placeholder Footer</p>
+		</div>
+	</div>
    
   </body>
 </html>
