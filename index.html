@@ -17,7 +17,7 @@
 	<!--Extra JS Scripts-->
    
   <!-- The Main Website -->
-    <div class="container d-flex flex-wrap justify-content-center">
+    <div class="container d-flex flex-wrap justify-content-center alignmentStyling">
       <img src="Images/2024-logo-AoeritTM.png" id="logoMain"/>
     </div>
      <!--Navigation Bar -->
@@ -39,24 +39,32 @@
 		</li>
 	</ul>
    <!--Main Body -->
-   
+   <div class="container" id="mainBody">
    <!--Logo/Brand Card -->
-   <div class = "container" id="logoCard">
+   <div class = "container alignmentStyling" id="logoCard">
    <p class="placeholderText">Placeholder LogoCard</p>
    </div>
    
+   <!--Video Card -->
+		<div class="container alignmentStyling" id="videoContainer">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/Y8LwIlGHHJE?si=ngv5Y4x0YHJ1VAWt" 
+			title="YouTube video player"
+			frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+			allowfullscreen id="videoPlayer"></iframe>
+		</div>
+   
    <!--Carousel -->
-	<div class="container" id="mainContent">
+	<div class="container alignmentStyling" id="mainContent">
 		<div id="carouselMain" class="carousel slide">
 			<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="..." class="d-block w-100" alt="...">
+				<img src="Images/2024-logo-AoeritTM.png" class="d-block w-100" alt="Slide One">
 		</div>
 		<div class="carousel-item">
-		<img src="..." class="d-block w-100" alt="...">
+		<img src="Images/2024-logo-AoeritTM.png" class="d-block w-100" alt="Slide Two">
 			</div>
 			<div class="carousel-item">
-		<img src="..." class="d-block w-100" alt="...">
+		<img src="Images/2024-logo-AoeritTM.png" class="d-block w-100" alt="Slide Three">
 		</div>
 		</div>
 			<button class="carousel-control-prev" type="button" data-bs-target="#carouselMain" data-bs-slide="prev">
@@ -69,16 +77,12 @@
 			</button>
 		</div>
 	</div>
-	<!--Video Card -->
-		<div class="container" id="videoContainer">
-			<iframe width="720" height="480" src="https://youtu.be/Y8LwIlGHHJE" id="videoPlayer">
-			</iframe>
-		</div>
+	
 	<!--Footer -->
-		<div class="container" id="footerBar">
-		<p class="placeholderText">Placeholder Footer</p>
+		<div class="container alignmentStyling" id="footerBar">
+		<p class="placeholderText">Copyright and Footer Text</p>
 		</div>
 	</div>
-   
+   </div>
   </body>
 </html>
