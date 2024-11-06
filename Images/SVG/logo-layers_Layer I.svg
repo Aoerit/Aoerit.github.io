@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   inkscape:export-ydpi="300"
+   inkscape:export-xdpi="300"
+   inkscape:export-filename="E-letter-logo.svg"
+   sodipodi:docname="revamp-logo-2024.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 79.077927 83.322044"
+   height="83.322044mm"
+   width="79.077927mm"
+   inkscape:export-batch-path="P:\AoeritCompany_MainFiles\business-stuff\Concept-Images\Logo-Designs-2020-2024\Logo_2024"
+   inkscape:export-batch-name="logo-layers"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title2641">brand-logo</title>
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient2012"
+       inkscape:swatch="gradient">
+      <stop
+         style="stop-color:#fccf51;stop-opacity:1"
+         offset="0"
+         id="stop2008" />
+      <stop
+         style="stop-color:#fff6d5;stop-opacity:1"
+         offset="1"
+         id="stop2010" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1554"
+       inkscape:swatch="gradient">
+      <stop
+         id="stop1550"
+         offset="0"
+         style="stop-color:#d99b00;stop-opacity:1;" />
+      <stop
+         id="stop1552"
+         offset="1"
+         style="stop-color:#fccf51;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="matrix(0.36361069,0,0,0.48357732,35.667972,54.433971)"
+       y2="93.420113"
+       x2="47.523411"
+       y1="95.507393"
+       x1="14.181936"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient991-0"
+       xlink:href="#linearGradient2012"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     width="850mm"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-9"
+     inkscape:window-x="-9"
+     inkscape:window-height="991"
+     inkscape:window-width="1920"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer12"
+     inkscape:document-units="mm"
+     inkscape:cy="882.8125"
+     inkscape:cx="1251.5625"
+     inkscape:zoom="0.32"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:pagecheckerboard="0"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>brand-logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <inkscape:templateinfo>
+    <inkscape:name>logo</inkscape:name>
+    <inkscape:author>PitaTH</inkscape:author>
+    <inkscape:date>2020-09-12</inkscape:date>
+  </inkscape:templateinfo>
+  <g
+     style="display:inline"
+     inkscape:label="Logo-Parts"
+     id="layer12"
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true"
+     transform="translate(-466.91651,-149.82013)">
+    <g
+       inkscape:groupmode="layer"
+       id="g979"
+       inkscape:label="Layer I"
+       sodipodi:insensitive="true"
+       style="display:inline">
+      <g
+         id="g987-0"
+         transform="matrix(1.7653081,0,0,1.7653081,447.79335,20.263264)"
+         style="display:inline">
+        <g
+           id="g995-5">
+          <g
+             id="g999-3"
+             transform="matrix(1.0035117,0,0,0.90794497,-0.15717643,6.3777224)">
+            <g
+               id="g1009-2"
+               transform="matrix(1.0017018,0,0,0.95844901,-0.07617149,2.8776978)"
+               style="stroke-width:0.999922;stroke-miterlimit:4;stroke-dasharray:none">
+              <g
+                 id="g1013-1">
+                <g
+                   id="g1023-9"
+                   transform="matrix(0.75042315,-0.76349471,0.5721914,0.75042315,-54.822178,63.787572)">
+                  <rect
+                     style="fill:url(#linearGradient991-0);fill-opacity:1;stroke:#000000;stroke-width:1.50875;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                     id="rect981-6"
+                     width="17.545946"
+                     height="51.382393"
+                     x="35.98526"
+                     y="69.600258" />
+                  <rect
+                     y="70.009567"
+                     x="36.352043"
+                     height="10.63087"
+                     width="16.781713"
+                     id="rect983-1"
+                     style="fill:#e6b055;fill-opacity:1;stroke:#000000;stroke-width:0.765216;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path10193"
+         d="m 273.90618,295.40276 18.3035,20.30139 -2.8768,2.65397 -17.96407,-20.8327 z"
+         style="display:inline;fill:#fccf51;fill-opacity:1;stroke:#000000;stroke-width:0.691024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         transform="matrix(2.2530358,0,0,2.2530358,-131.01834,-485.88454)" />
+    </g>
+  </g>
+</svg>
