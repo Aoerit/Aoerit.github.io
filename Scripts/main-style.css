@@ -1,11 +1,115 @@
-body
-{
-	font-family: Arial, Helvetica, sans-serif;
+.kanit-thin {
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
+
+.kanit-extralight {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.kanit-light {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.kanit-regular {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kanit-medium {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.kanit-semibold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.kanit-bold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.kanit-extrabold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.kanit-black {
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.kanit-thin-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.kanit-extralight-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.kanit-light-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.kanit-regular-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.kanit-medium-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.kanit-semibold-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.kanit-bold-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.kanit-extrabold-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.kanit-black-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
 #logo
 {
-width: 50%;
-height: 20vh;
+	width: 50%;
+	height: 15vh;
 }
 #link-btn
 {
@@ -22,38 +126,49 @@ height: 20vh;
 	left:20%;
 	padding: 0%;
 	width: 60%;
-	height: 50vh;
+	height: 60vh;
 }
 .font-links
 {
-	font-size: 18px;
+	font-size: 14pt;
 	line-height: 1.5;
+	font-weight: 700;
 
 }
 #anim-block
 {
 	width: 100%;
-	height: 100%;
+	height: 120%;
 	position: absolute;
 	z-index:-1;
+	background: rgb(0,0,0);
+	background: -moz-radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(51,51,119,1) 100%);
+	background: -webkit-radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(51,51,119,1) 100%);
+	background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(51,51,119,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#333377",GradientType=1); 
 }
 .block-content
 {
+	opacity: 0.6;
 	background: rgb(192,192,192);
 	background: -moz-linear-gradient(180deg, rgba(192,192,192,1) 0%, rgba(255,255,255,1) 100%);
 	background: -webkit-linear-gradient(180deg, rgba(192,192,192,1) 0%, rgba(255,255,255,1) 100%);
 	background: linear-gradient(180deg, rgba(192,192,192,1) 0%, rgba(255,255,255,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c0c0c0",endColorstr="#ffffff",GradientType=1); 
-	padding-left: 10%; padding-right: 10%; padding-top: 2%; padding-bottom: 2%;
+	padding-top: 2%; padding-bottom: 2%;
 	margin-top: 0.5%; margin-bottom: 0.5%;
-	border: 1px solid black;
+	width: 100%;
+	margin-left: 50px; margin-right: 50px;
+	border: 2px solid black;
 	
 }
 #copyright
 {
-	background: rgb(255,149,0);
-	background: linear-gradient(120deg, rgba(255,149,0,1) 0%, rgba(255,152,0,1) 45%, rgba(0,157,255,1) 100%);
-	font-family: Arial, Helvetica, sans-serif;
+	background: rgb(255,242,202);
+	background: -moz-radial-gradient(circle, rgba(255,242,202,1) 0%, rgba(170,141,56,1) 100%);
+	background: -webkit-radial-gradient(circle, rgba(255,242,202,1) 0%, rgba(170,141,56,1) 100%);
+	background: radial-gradient(circle, rgba(255,242,202,1) 0%, rgba(170,141,56,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fff2ca",endColorstr="#aa8d38",GradientType=1); 
 	font-weight: bold;
 	line-height: 1.5;
 	text-align: center;

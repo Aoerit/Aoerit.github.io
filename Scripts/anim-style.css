@@ -1,0 +1,7 @@
+.gear
+{
+	background-image:url("Images/SVG/Gear_Alt.svg");
+	width: 100px; height: 100px;
+	position: absolute;
+	z-index: -2;
+}
