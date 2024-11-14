@@ -131,9 +131,9 @@
 }
 #loop1
 {
-	padding: 2%;
+	padding: 0;
 	width: 50vw;
-	height: 50vh;
+	height: auto;
 }
 #intro-vid
 {
