@@ -5,7 +5,7 @@ body
 	background: -webkit-radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(51,51,119,1) 100%);
 	background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(51,51,119,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#333377",GradientType=1); 
-	background: cover;
+	background: cover repeat;
 }
 /*Fonts */
 .kanit-thin {
@@ -192,11 +192,10 @@ body
 	background: -webkit-radial-gradient(circle, rgba(255,242,202,1) 0%, rgba(170,141,56,1) 100%);
 	background: radial-gradient(circle, rgba(255,242,202,1) 0%, rgba(170,141,56,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fff2ca",endColorstr="#aa8d38",GradientType=1); 
-	font-weight: bold;
-	line-height: 1.5;
+	position: relative;
 	text-align: center;
-	margin-top: 2%;
-	padding-top: 10px; padding-bottom: 10px;
+	margin-top: 5%;
+	padding-top: 1.5%; padding-bottom: 1.5%;
 	
 }
 
