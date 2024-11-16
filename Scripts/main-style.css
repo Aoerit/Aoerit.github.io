@@ -7,6 +7,7 @@ body
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#333377",GradientType=1); 
 	background: cover repeat;
 }
+
 /*Fonts */
 .kanit-thin {
   font-family: "Kanit", sans-serif;
@@ -142,9 +143,11 @@ body
 #video-loop
 {
 	position: relative;
-	width: 65vw;
-	height: 100%;
-	right: 0;
+	width: 80%;
+	height: 50vh;
+	right: 0; left: 0;
+	padding: 0;
+	z-index: 2;
 }
 #intro-vid
 {
@@ -185,6 +188,12 @@ body
 	border: 2px solid black;
 	
 }
+.org-img
+{
+	width: 300px;
+	height: auto;
+}
+
 #copyright
 {
 	background: rgb(255,242,202);

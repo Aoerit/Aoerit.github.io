@@ -1,7 +1,44 @@
 .gear
 {
-	background-image:url("Images/SVG/Gear_Alt.svg");
-	width: 100px; height: 100px;
+	
 	position: absolute;
 	z-index: -2;
+}
+#gear1
+{
+	position: relative;
+	right: 10%;
+	width: 35%; height: auto;
+	animation-name: rotating-gear; animation-duration: 7s; animation-iteration-count: infinite;
+	animation-timing-function: ease-in;  
+}
+#gear2
+{
+	position: relative;
+	right: 10%;
+	margin-top: 75%;
+	width: 25%; height: auto; animation: alternate;
+	animation-name: rotating-gear; animation-duration: 4s; animation-iteration-count: infinite;
+	animation-timing-function: ease-in;  
+	
+}
+#gear3
+{
+	position: relative;
+	right: 10%;
+	margin-top: 150%;
+	width: 35%; height: auto; animation: alternate;
+	animation-name: rotating-gear; animation-duration: 7s; animation-iteration-count: infinite;
+	animation-timing-function: ease-in;  
+	
+}
+@keyframes rotating-gear
+{
+	0%{transform: rotate(0);}
+	16.67%{transform:  rotate(90deg);}
+	33.33%{transform:  rotate(180deg);}
+	50%{transform: rotate(360deg)) ;}
+	66.67%{transform: rotate(90deg) ;}
+	83.33%{transform: rotate(180deg) ;}
+	100%{transform: rotate(360deg) ;}
 }
