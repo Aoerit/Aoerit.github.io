@@ -5,7 +5,7 @@ body
 	background: -webkit-radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(51,51,119,1) 100%);
 	background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(51,51,119,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#333377",GradientType=1); 
-	background: cover repeat;
+	background: center no-repeat cover;
 }
 
 /*Fonts */
@@ -143,8 +143,8 @@ body
 #video-loop
 {
 	position: relative;
-	width: 80%;
-	height: 50vh;
+	width: 100%;
+	height: 60vh;
 	right: 0; left: 0;
 	padding: 0;
 	z-index: 2;
@@ -183,15 +183,30 @@ body
 	background: -webkit-linear-gradient(180deg, rgba(192,192,192,1) 0%, rgba(255,255,255,1) 100%);
 	background: linear-gradient(180deg, rgba(192,192,192,1) 0%, rgba(255,255,255,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c0c0c0",endColorstr="#ffffff",GradientType=1); 
-	margin-top: 10%; padding: 2%;
+	margin-top: 10%; padding: 1.5%;
 	width: 100%;
-	border: 2px solid black;
+	border: 3px solid black;
 	
 }
 .org-img
 {
-	width: 300px;
-	height: auto;
+	width: auto;
+	height: 300px;
+}
+.socials
+{
+	width: auto;
+	height: 50px;
+}
+.enquiries
+{
+	position: relative;
+	margin-top: 5%;
+}
+.contact
+{
+	width: 40px;
+	height: 40px;
 }
 
 #copyright
@@ -204,7 +219,7 @@ body
 	position: relative;
 	text-align: center;
 	margin-top: 5%;
-	padding-top: 1.5%; padding-bottom: 1.5%;
+	padding-top: 1.5%; padding-bottom: 1.5%; border: 2px solid black;
 	
 }
 

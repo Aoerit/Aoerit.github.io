@@ -1,3 +1,27 @@
+/*CSS On-Hover animations */
+.org-img:hover
+{
+	/* opacity: 0.5; */
+	filter: contrast(200%);
+
+}
+#video-loop:hover
+{
+	opacity: 0.5;
+}
+
+
+/*Socials animations */
+.socials:hover
+{
+	opacity: 0.5;
+	transform: scale(1.2);
+}
+.contact:hover
+{
+	transform: scale(1.2);
+}
+/*CSS Gear animations */
 .gear
 {
 	
