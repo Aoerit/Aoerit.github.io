@@ -7,19 +7,46 @@
 }
 #video-loop:hover
 {
-	opacity: 0.5;
+	opacity: 0.8;
+}
+
+/* Splash Page Setup*/
+
+/* .logo-anim div:nth-child(1)
+{
+	position: absolute;
+	left: 10%;
+	margin-top: 5%;
+	animation-name: letter-drop; animation-duration: 4s; animation-timing-function: linear; 
 }
 
 
+@keyframes letter-drop
+{
+	0%{transform: translateY(0); transform: scale(0.5);}
+	50%{transform: translateY(200px); transform: scale(1);}
+	100%{transform: translateY(400px); transform: scale(1.5);}
+}
+ */
 /*Socials animations */
 .socials:hover
 {
-	opacity: 0.5;
-	transform: scale(1.2);
+	opacity: 0.8;
+	transform: scale(1.5);
 }
 .contact:hover
 {
-	transform: scale(1.2);
+	transform: scale(1.5);
+}
+
+/*Service Icons Simple Anims */
+.service-icons:hover
+{
+	background: rgb(255,242,202);
+	background: -moz-linear-gradient(0deg, rgba(255,242,202,1) 0%, rgba(233,216,164,1) 25%, rgba(214,194,132,1) 50%, rgba(188,162,87,1) 75%, rgba(170,141,56,1) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(255,242,202,1) 0%, rgba(233,216,164,1) 25%, rgba(214,194,132,1) 50%, rgba(188,162,87,1) 75%, rgba(170,141,56,1) 100%);
+	background: linear-gradient(0deg, rgba(255,242,202,1) 0%, rgba(233,216,164,1) 25%, rgba(214,194,132,1) 50%, rgba(188,162,87,1) 75%, rgba(170,141,56,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fff2ca",endColorstr="#aa8d38",GradientType=1); 
 }
 /*CSS Gear animations */
 .gear
@@ -53,6 +80,35 @@
 	margin-top: 150%;
 	width: 35%; height: auto; animation: alternate;
 	animation-name: rotating-gear; animation-duration: 7s; animation-iteration-count: infinite;
+	animation-timing-function: ease-in;  
+	
+}
+
+#gear-alt-1
+{
+	position: relative;
+	right: 10%;
+	width: 35%; height: auto;
+	animation-name: rotating-gear; animation-duration: 6s; animation-iteration-count: infinite;
+	animation-timing-function: ease-in;  
+}
+#gear-alt-2
+{
+	position: relative;
+	right: 10%;
+	margin-top: 50%;
+	width: 25%; height: auto; animation: alternate;
+	animation-name: rotating-gear; animation-duration: 3s; animation-iteration-count: infinite;
+	animation-timing-function: ease-in;  
+	
+}
+#gear-alt-3
+{
+	position: relative;
+	right: 10%;
+	margin-top: 100%;
+	width: 35%; height: auto; animation: alternate;
+	animation-name: rotating-gear; animation-duration: 6s; animation-iteration-count: infinite;
 	animation-timing-function: ease-in;  
 	
 }
