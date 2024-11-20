@@ -5,6 +5,10 @@
 	filter: contrast(200%);
 
 }
+.anim-btn:hover
+{
+	filter: hue-rotate(90deg);
+}
 #video-loop:hover
 {
 	opacity: 0.8;
