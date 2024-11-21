@@ -138,17 +138,16 @@ body
 	position: relative;
 	padding-top: 1%;
 	padding-bottom: 1%;
-	margin-top: 20%;
-	left: 35%;
-	min-width: 60px;
-	max-width: 300px;
-	min-height: 30;
-	max-height: 150px;
-	background: rgb(255,246,217);
+	margin: auto;
+	min-width: 40px;
+	max-width: 200px;
+	min-height: 15px;
+	max-height: 120px;
+	/* background: rgb(255,246,217);
 	background: -moz-linear-gradient(180deg, rgba(255,246,217,1) 0%, rgba(246,219,135,1) 25%, rgba(223,196,112,1) 50%, rgba(245,212,118,1) 75%, rgba(255,192,0,1) 100%);
 	background: -webkit-linear-gradient(180deg, rgba(255,246,217,1) 0%, rgba(246,219,135,1) 25%, rgba(223,196,112,1) 50%, rgba(245,212,118,1) 75%, rgba(255,192,0,1) 100%);
 	background: linear-gradient(180deg, rgba(255,246,217,1) 0%, rgba(246,219,135,1) 25%, rgba(223,196,112,1) 50%, rgba(245,212,118,1) 75%, rgba(255,192,0,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fff6d9",endColorstr="#ffc000",GradientType=1);  
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fff6d9",endColorstr="#ffc000",GradientType=1);   */
 	border: solid 4px rgb(255,195,1);
 	border-radius: 25px;
 	
@@ -245,7 +244,7 @@ body
 }
 .card-img-top
 {
-	width: 50vw;
+	width: auto;
 	height: auto;
 }
 
