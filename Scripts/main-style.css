@@ -127,7 +127,12 @@ body
 	width: auto;
 	height: 150px;
 }
+.extra-padding
+{
+	
+	padding-top: 70px;
 
+}
 
 #logo
 {
@@ -173,7 +178,7 @@ body
 	padding: 0;
 	z-index: 2;
 }
-#intro-vid
+.showcase-vid
 {
 	position: relative;
 	padding: 1%;
@@ -223,10 +228,7 @@ body
 	position: relative;
 	margin-top: 5%;
 }
-.gear-spacing
-{
-	margin-top: 5%;
-}
+
 .contact
 {
 	width: 50px;

@@ -3,14 +3,21 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Homepage">
+	<meta name="description" content="Portfolio">
 	<meta name="author" content="Pita Taylor-Heke, Aoerit Games">
     <title>Portfolio - Aoerit</title>
     <!--CSS Style Sheets-->
     <link href="Scripts/main-style.css" rel="stylesheet">
+	<link href="Scripts/anim-style.css" rel="stylesheet">
 	
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
 	integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	
+		<!--Fonts: Kanit Font by The Kanit Project Authors (https://github.com/cadsondemak/kanit) Copyright © 2020 -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+	rel="stylesheet">
 	
 	<!--Internal Stylesheets Bootstrap -->
 	<!-- <link href="Scripts/Bootstrap-css/bootstrap.css" rel="stylesheet"> -->
@@ -20,52 +27,119 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
    
 	<!--Extra JS/CSS Scripts-->
+	<script src="https://player.vimeo.com/api/player.js"></script>
 <!-- <script src="Scripts/Bootstrap-js/bootstrap.bundle.js"></script> -->
     <!-- Page Layout -->
 	
     <!-- Nav Bar with Brand attached. Note: currently using the Bootstrap example for this -->
-	<nav class="navbar navbar-expand-lg bg-body-tertiary font-links">
+	<nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary font-links kanit-medium">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.html"><img id="logo" src="Images/SVG/Full_Logo-2024.svg" alt="AOERIT"></a>
+    <a class="navbar-brand" href="index.html"><img id="logo" src="Images/SVG/Full_Logo-2024.svg" alt="AOERIT"></img></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav mx-auto gap-4">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Homepage</a>
+          <a class="nav-link" href="home.html">Homepage</a>
         </li>
         <li class="nav-item">
           <a class="nav-link"  href="#">Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Media and Releases</a>
+          <a class="nav-link disabled" aria-disabled="true" href="#">Media and Releases</a>
         </li>
 		   <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Portfolio</a>
+          <a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a>
         </li>
       </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
     </div>
   </div>
 </nav>
 
-<!-- CSS Animation -->	
+<!-- CSS Animation -->
+<section id="anim-block">
+	<div class="extra-padding"> 
+	
+		<div class="gear">
+		<img id="gear1" src="Images/SVG/Gear_Alt.svg" alt="rotating gear"></img>
+		</div>
+		
+		<div class="gear">
+		<img id="gear2" src="Images/SVG/Gear_Alt.svg" alt="rotating gear"></img>
+		</div>
+		
+		<div class="gear">
+		<img id="gear3" src="Images/SVG/Gear_Alt.svg" alt="rotating gear"></img>
+		</div>
+	</div>
+</section>	
 
-    <!-- Main Block -->
-    <div>
-    </div>
-    <!-- Secondary Block -->
-    <div>
-    </div>
-    <!-- Tertiary Block -->
-    <div>
-    </div>
+    <!-- Discussion Block -->
+	<div class="container block-content text-center kanit-regular lh-lg">
+	<p class="extra-padding">Below is a collection of works <img class="text-center service-icons" src="Images/SVG/bootstrap-icons/collection.svg"></img>
+	that Aoerit (and the founder have developed) over many years.<img class="text-center service-icons" src="Images/SVG/bootstrap-icons/brush.svg"></img>
+	<br />These include a range of multimedia works (prior to 2020)<img class="text-center service-icons" src="Images/SVG/bootstrap-icons/film.svg"></img>,
+	<br />to digital games or web based works (post-2020).<img class="text-center service-icons" src="Images/SVG/bootstrap-icons/dpad.svg"></img>
+	
+	</p>
+	</div>
+    <!-- Projects Pre-2020 -->
+    <div class="container block-content text-center kanit-medium lh-lg">
+	<h4 class="text-center">Projects and Works pre-2020</h4>
+	<!-- List of Works -->
+	<div class="text-center container" style="margin: 0;">
+	
+	<h6 class="kanit-medium-italics">2011-2017 works (animations)</h6>
+	<iframe class="text-center showcase-vid" src="https://player.vimeo.com/video/1007864073?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+	frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
+	title="Full Animation Projects 2011-2017"></iframe>
+	
+	<h6 class="kanit-medium-italics">2013-2017 works (web)</h6> 
+	<iframe class="text-center showcase-vid" src="https://player.vimeo.com/video/1007864038?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+	frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Experimental Websites [UniversityYears] 2013-2017"></iframe>
+	
+	<h6 class="kanit-medium-italics">2013-2017 works (coding works)</h6> 
+	<iframe class="text-center showcase-vid" src="https://player.vimeo.com/video/1007863992?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+	frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Coding Patterns 2013-2017"></iframe>
+	</div>
+	</div>
+    <!--  Game Projects -->
+    <div class="container block-content text-center kanit-regular lh-lg">
+	<h4 class="text-center kanit-bold">Projects and Works 2020-onwards</h4>
+	<!-- List of Works -->
+	<div class="text-center container" style="margin: 0;">
+	
+	<h6 class="kanit-medium-italics">Highlight Reel - Digital Works (Current)</h6> 
+	<iframe class="text-center showcase-vid" src="https://player.vimeo.com/video/1007861846?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+	frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Current Works - Aoerit - 2024"></iframe>
+	
+	<h6 class="kanit-medium-italics">Asteroids - Mini Game (2023)</h6> 
+	<iframe class="text-center showcase-vid" src="https://player.vimeo.com/video/989822496?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
+	title="Asteroids - Mini Game"></iframe>
+	
+	
+	<h6 class="kanit-medium-italics">Sort Em Out Later - Space Game (2021)</h6> 
+	<iframe class="text-center showcase-vid" src="https://player.vimeo.com/video/989823829?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+	title="Sort Em Out Later - Gameplay (2024 version)"></iframe>
+	</div>
+	</div>
+	</div>
+ 
+<!--Enquiries Bar --> 
+<div class="container block-content text-center kanit-medium lh-lg">
+ <div class="enquiries text-center lh-lg row">
+ 
+	<h6 class="kanit-semibold-italic">For all enquiries:</h6>
+	<a href="mailto:info@aoerit.nz" target="_blank" rel="noopener noreferrer"><img class="contact" src="Images/SVG/bootstrap-icons/envelope-at.svg"></img>
+	</a>
+	<p class="kanit-regular-italic">(click or press - if using a touch device - on the "mail-image" for contact)</p>
+	</div>
+</div>
 
     <!-- Copyright Bar -->
- <div id="copyright">Copyright © 2024, Aoerit Games</div>
+<div class="kanit-semibold" id="copyright">
+Copyright © 2024, Aoerit™ Games
+</div>
 </body>
 </html>
