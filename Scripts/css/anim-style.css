@@ -5,24 +5,22 @@
 	filter: contrast(200%);
 
 }
-.anim-btn:hover
-{
-	filter: hue-rotate(90deg);
-}
+
 #video-loop:hover
 {
 	opacity: 0.8;
 }
+.anim-btn
+{
+	animation: anim-pulse 4s infinite ease-in alternate-reverse;
+	/* animation-name: anim-pulse; animation-duration: 4s; animation-iteration-count: infinite;
+	animation-timing-function: ease-in; animation-direction: alternate; */
+	
+}
 
 /* Splash Page Setup*/
 
-/* .logo-anim div:nth-child(1)
-{
-	position: absolute;
-	left: 10%;
-	margin-top: 5%;
-	animation-name: letter-drop; animation-duration: 4s; animation-timing-function: linear; 
-}
+/* 
 
 
 @keyframes letter-drop
@@ -52,6 +50,28 @@
 	background: linear-gradient(0deg, rgba(255,242,202,1) 0%, rgba(233,216,164,1) 25%, rgba(214,194,132,1) 50%, rgba(188,162,87,1) 75%, rgba(170,141,56,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fff2ca",endColorstr="#aa8d38",GradientType=1); 
 }
+
+@keyframes anim-pulse
+{
+	from
+	{
+	filter: contrast(50%);
+	filter: hue-rotate(270deg);
+	opacity: 0.3;
+	
+	}
+	to{
+	filter: contrast(200%);
+	filter: hue-rotate(0deg);
+	opacity: 1;
+	
+	}
+	
+}
+.anim-btn:hover
+{
+	transform: scale(1.5);
+}
 /*CSS Gear animations */
 .gear
 {
@@ -59,7 +79,7 @@
 	position: absolute;
 	z-index: -2;
 }
-#gear1
+.gear1
 {
 	position: relative;
 	right: 10%;
@@ -67,28 +87,30 @@
 	animation-name: rotating-gear; animation-duration: 7s; animation-iteration-count: infinite;
 	animation-timing-function: ease-in;  
 }
-#gear2
+.gear2
 {
 	position: relative;
 	right: 10%;
-	margin-top: 75%;
+	margin-top: min(60%);
+	margin-top: max(105%);
 	width: 25%; height: auto; animation: alternate;
 	animation-name: rotating-gear; animation-duration: 4s; animation-iteration-count: infinite;
 	animation-timing-function: ease-in;  
 	
 }
-#gear3
+.gear3
 {
 	position: relative;
 	right: 10%;
-	margin-top: 150%;
+	margin-top: min(125%);
+	margin-top: max(170%);
 	width: 35%; height: auto; animation: alternate;
 	animation-name: rotating-gear; animation-duration: 7s; animation-iteration-count: infinite;
 	animation-timing-function: ease-in;  
 	
 }
 
-#gear-alt-1
+.gear-alt-1
 {
 	position: relative;
 	right: 10%;
@@ -96,21 +118,23 @@
 	animation-name: rotating-gear; animation-duration: 6s; animation-iteration-count: infinite;
 	animation-timing-function: ease-in;  
 }
-#gear-alt-2
+.gear-alt-2
 {
 	position: relative;
 	right: 10%;
-	margin-top: 50%;
+	margin-top: min(50%);
+	margin-top: max(95%);
 	width: 25%; height: auto; animation: alternate;
 	animation-name: rotating-gear; animation-duration: 3s; animation-iteration-count: infinite;
 	animation-timing-function: ease-in;  
 	
 }
-#gear-alt-3
+.gear-alt-3
 {
 	position: relative;
 	right: 10%;
-	margin-top: 100%;
+	margin-top: min(105%);
+	margin-top: max(150%);
 	width: 35%; height: auto; animation: alternate;
 	animation-name: rotating-gear; animation-duration: 6s; animation-iteration-count: infinite;
 	animation-timing-function: ease-in;  
