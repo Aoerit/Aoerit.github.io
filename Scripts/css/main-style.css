@@ -127,10 +127,15 @@ body
 	width: auto;
 	height: 150px;
 }
+.tips
+{
+	text-decoration: underline;
+	color: black;
+}
 .extra-padding
 {
 	
-	padding-top: 80px;
+	padding-top: 90px;
 
 }
 
