@@ -6,11 +6,11 @@
 	{
 	filter: contrast(50%);
 	filter: hue-rotate(270deg);
-	opacity: 0.3;
+	opacity: 0.4;
 	
 	}
 	to{
-	filter: contrast(200%);
+	filter: contrast(250%);
 	filter: hue-rotate(0deg);
 	opacity: 1;
 	
@@ -29,12 +29,30 @@
 	100%{transform: rotate(360deg) ;}
 }
 
+@keyframes transmat
+{
+	from
+	{
+	transform: translateY(0%);
+	opacity: 0;
+	
+	}
+	to{
+	
+	opacity: 1;
+	transform: translateY(20%);
+	
+	}
+	
+}
+
+
 
 /*CSS On-Hover animations */
 .org-img:hover
 {
 	/* opacity: 0.5; */
-	filter: contrast(200%);
+	filter: contrast(250%);
 
 }
 
@@ -44,18 +62,41 @@
 }
 .anim-btn
 {
-	animation: anim-pulse 4s infinite ease-in alternate-reverse;
-	/* animation-name: anim-pulse; animation-duration: 4s; animation-iteration-count: infinite;
+	margin-bottom: 10%;
+	animation: anim-pulse 5s infinite ease-in alternate-reverse;
+	/* animation-name: anim-pulse; animation-duration: 5s; animation-iteration-count: infinite;
 	animation-timing-function: ease-in; animation-direction: alternate; */
 	
 }
 
 /* Splash Page Setup*/
+.splash-gap
+{
+	padding-top: 25%;
+	animation: transmat 2s infinite ease-in alternate-reverse;
+}
 
-/* 
+.splash-anim
+{
+	margin: 0; padding: 0; text-align: center;
+	position: relative;
+}
+.splash-gear
+{
+	min-width: 15%; max-width: 30%; height: auto; position: relative;
+	animation: rotating-gear 3s infinite linear alternate-reverse;
+	
+	
+}
+.splash-gear1
+{
+	min-width: 15%; max-width: 30%; height: auto; position: relative;
+	animation: rotating-gear 6s infinite linear alternate-reverse;
+	
+	
+}
 
 
- */
 /*Socials animations */
 .socials:hover
 {
