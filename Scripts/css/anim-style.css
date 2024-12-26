@@ -56,6 +56,11 @@
 
 }
 
+.spark-mc:hover
+{
+	filter: contrast(80%);
+	animation: anim-pulse 4s infinite ease-in alternate-reverse;	
+}
 #video-loop:hover
 {
 	opacity: 0.8;
