@@ -23,7 +23,7 @@
 	0%{transform: rotate(0);}
 	16.67%{transform:  rotate(90deg);}
 	33.33%{transform:  rotate(180deg);}
-	50%{transform: rotate(360deg)) ;}
+	50%{transform: rotate(360deg) ;}
 	66.67%{transform: rotate(90deg) ;}
 	83.33%{transform: rotate(180deg) ;}
 	100%{transform: rotate(360deg) ;}
@@ -75,9 +75,10 @@
 }
 
 /* Splash Page Setup*/
+
 .splash-gap
 {
-	padding-top: 25%;
+	padding-top: 10%;
 	animation: transmat 2s infinite ease-in alternate-reverse;
 }
 
@@ -88,17 +89,16 @@
 }
 .splash-gear
 {
-	min-width: 15%; max-width: 30%; height: auto; position: relative;
+	min-width: 20%; max-width: 40%; height: auto; position: relative;
 	animation: rotating-gear 3s infinite linear alternate-reverse;
 	
 	
 }
 .splash-gear1
 {
-	min-width: 15%; max-width: 30%; height: auto; position: relative;
+	min-width: 25%; max-width: 50%; height: auto; position: relative;
 	animation: rotating-gear 6s infinite linear alternate-reverse;
-	
-	
+		
 }
 
 

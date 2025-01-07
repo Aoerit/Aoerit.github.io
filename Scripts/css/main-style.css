@@ -136,21 +136,22 @@ body
 
 #logo
 {
-	width: 50%;
-	height: 15vh;
+	width: 45%;
+	height: 12.5vh;
+	margin: auto;
 }
 #link-btn
 {
 	position: relative;
-	padding-top: 1%;
-	padding-bottom: 1%;
+	padding-top: 2%;
+	padding-bottom: 2%;
 	margin: auto;
-	min-width: 40px;
-	max-width: 200px;
-	min-height: 15px;
-	max-height: 120px;
+	min-width: 50px;
+	max-width: 250px;
+	min-height: 25px;
+	max-height: 125px;
 	border: solid 4px rgb(255,195,1);
-	border-radius: 25px;
+	border-radius: 30px;
 	
 }
 .blurb
