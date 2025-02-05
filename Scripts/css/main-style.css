@@ -194,6 +194,7 @@ body
 	height: auto;
 	position: absolute;
 	z-index:-1;
+	margin-top: 5%;
 	
 }
 .block-content
