@@ -148,7 +148,7 @@
 	position: relative;
 	right: 10%;
 	margin-top: min(60%);
-	margin-top: max(105%);
+	margin-top: max(120%);
 	width: 25%; height: auto; animation: alternate;
 	animation-name: rotating-gear; animation-duration: 4s; animation-iteration-count: infinite;
 	animation-timing-function: ease-in;  
@@ -158,8 +158,8 @@
 {
 	position: relative;
 	right: 10%;
-	margin-top: min(125%);
-	margin-top: max(170%);
+	margin-top: min(90%);
+	margin-top: max(180%);
 	width: 35%; height: auto; animation: alternate;
 	animation-name: rotating-gear; animation-duration: 7s; animation-iteration-count: infinite;
 	animation-timing-function: ease-in;  
