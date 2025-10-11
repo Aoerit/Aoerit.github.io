@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   fill="currentColor"
+   class="bi bi-twitter-x"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="bluesky.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="32"
+     inkscape:cx="-0.140625"
+     inkscape:cy="10.203125"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g4" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Bluesky">
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round"
+       d="M 7.9482536,7.3065977 C 8.6904784,3.3895085 14.363155,0.63653878 15.151358,0.78654592 c 0.46599,0.095489 0.587492,0.33720078 0.62312,0.65154258 0.02174,0.1918475 -0.09591,0.9568948 -0.173903,1.4768226 -0.05117,0.3411028 -0.308193,1.8895917 -0.351447,2.1781104 -0.03975,0.2651405 -0.337184,2.5074981 -0.476663,3.215594 -0.01323,0.067175 -0.02504,0.1205415 -0.03508,0.1571025 -0.0156,0.053504 -0.06551,0.103765 -0.114605,0.1745144 -0.335907,0.4841019 -2.221133,1.2056077 -3.342057,1.1708931 0.897732,0.1364022 2.258679,0.6510655 2.46313,0.8693405 1.126243,0.959383 -0.148362,2.80955 -0.28978,2.959896 -0.192381,0.188197 -0.891807,0.848059 -1.743731,1.14977 -0.361499,0.128026 -0.960558,0.185962 -1.216165,0.154241 -0.7040927,-0.0147 -2.2037886,-1.731006 -2.4631291,-3.477362 z"
+       id="path3"
+       sodipodi:nodetypes="ccsssscscccsccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g4"
+     inkscape:label="Bluesky copy"
+     transform="matrix(-1,0,0,1,16.125113,0)">
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round"
+       d="M 7.9482536,7.3065977 C 8.6904784,3.3895085 14.363155,0.63653878 15.151358,0.78654592 c 0.46599,0.095489 0.587492,0.33720078 0.62312,0.65154258 0.02174,0.1918475 -0.09591,0.9568948 -0.173903,1.4768226 -0.05117,0.3411028 -0.308193,1.8895917 -0.351447,2.1781104 -0.03975,0.2651405 -0.337184,2.5074981 -0.476663,3.215594 -0.01323,0.067175 -0.02504,0.1205415 -0.03508,0.1571025 -0.0156,0.053504 -0.06551,0.103765 -0.114605,0.1745144 -0.335907,0.4841019 -2.221133,1.2056077 -3.342057,1.1708931 0.897732,0.1364022 2.258679,0.6510655 2.46313,0.8693405 1.126243,0.959383 -0.148362,2.80955 -0.28978,2.959896 -0.192381,0.188197 -0.891807,0.848059 -1.743731,1.14977 -0.361499,0.128026 -0.960558,0.185962 -1.216165,0.154241 -0.7040927,-0.0147 -2.2037886,-1.731006 -2.4631291,-3.477362 z"
+       id="path4"
+       sodipodi:nodetypes="ccsssscscccsccc" />
+  </g>
+</svg>

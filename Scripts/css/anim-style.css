@@ -79,18 +79,19 @@
 .splash-gap
 {
 	margin-top: 10%;
-	animation: transmat 2s infinite ease-in alternate-reverse;
+	animation: transmat 3s infinite ease-in alternate-reverse;
 }
 
 .splash-anim
 {
-	margin: 0; padding: 0; text-align: center;
-	position: relative;
+	margin-top: 10%; margin-bottom: -10%; padding: 0; text-align: center;
+	position: relative; 
 }
 .splash-gear
 {
 	min-width: 20%; max-width: 40%; height: auto; position: relative;
 	animation: rotating-gear 3s infinite linear alternate-reverse;
+	z-index: -1;
 	
 	
 }
@@ -98,7 +99,7 @@
 {
 	min-width: 25%; max-width: 50%; height: auto; position: relative;
 	animation: rotating-gear 6s infinite linear alternate-reverse;
-		
+	z-index: -1;
 }
 
 
