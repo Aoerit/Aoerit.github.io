@@ -4,14 +4,14 @@
 {
 	from
 	{
-	filter: contrast(50%);
-	filter: hue-rotate(270deg);
-	opacity: 0.4;
+	filter: hue-rotate(0deg);
+	filter: contrast(150%);
+	opacity: 0.5;
 	
 	}
 	to{
-	filter: contrast(250%);
-	filter: hue-rotate(0deg);
+	filter: contrast(50%);
+	filter: hue-rotate(360deg);
 	opacity: 1;
 	
 	}
@@ -68,7 +68,7 @@
 .anim-btn
 {
 	margin-bottom: 10%;
-	animation: anim-pulse 5s infinite ease-in alternate-reverse;
+	animation: anim-pulse 10s infinite ease-in;
 	/* animation-name: anim-pulse; animation-duration: 5s; animation-iteration-count: infinite;
 	animation-timing-function: ease-in; animation-direction: alternate; */
 	
@@ -139,17 +139,19 @@
 .gear1
 {
 	position: relative;
-	right: 10%;
-	width: 35%; height: auto;
+	/* z-index: -2; */
+	left: max(10%);
+	width: 30%; height: auto;
 	animation-name: rotating-gear; animation-duration: 7s; animation-iteration-count: infinite;
 	animation-timing-function: ease-in;  
 }
 .gear2
 {
 	position: relative;
-	right: 10%;
-	margin-top: min(60%);
-	margin-top: max(120%);
+	/* z-index: -2; */
+	left: max(10%);
+	margin-top: min(40%);
+	margin-top: max(80%);
 	width: 25%; height: auto; animation: alternate;
 	animation-name: rotating-gear; animation-duration: 4s; animation-iteration-count: infinite;
 	animation-timing-function: ease-in;  
@@ -158,10 +160,11 @@
 .gear3
 {
 	position: relative;
-	right: 10%;
-	margin-top: min(90%);
-	margin-top: max(180%);
-	width: 35%; height: auto; animation: alternate;
+	/* z-index: -2; */
+	left: max(10%);
+	margin-top: min(80%);
+	margin-top: max(160%);
+	width: 30%; height: auto; animation: alternate;
 	animation-name: rotating-gear; animation-duration: 7s; animation-iteration-count: infinite;
 	animation-timing-function: ease-in;  
 	
