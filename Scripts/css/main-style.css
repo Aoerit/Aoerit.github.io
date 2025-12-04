@@ -136,8 +136,8 @@ body
 
 #logo
 {
-	width: 45%;
-	height: 15vh;
+	width: 60%;
+	height: 12.5vh;
 	margin: auto;
 }
 #link-btn
@@ -196,6 +196,15 @@ body
 	margin-top: 5%;
 	
 }
+.anim-block1
+{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	z-index: 1;
+	margin-top: 5%;
+	
+}
 .block-content
 {
 	opacity: 0.8;
@@ -222,7 +231,7 @@ body
 .enquiries
 {
 	position: relative;
-	margin-top: 5%;
+	margin-top: 7.5%;
 }
 
 .contact
@@ -246,6 +255,7 @@ body
 	height: auto;
 }
 
+
 #copyright
 {
 	background: rgb(255,242,202);
@@ -255,7 +265,7 @@ body
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fff2ca",endColorstr="#aa8d38",GradientType=1); 
 	position: relative;
 	text-align: center;
-	margin-top: 3.5%;
+	margin-top: 7.5%;
 	margin-bottom: 0; margin-left: 0%; margin-right: 0%;
 	padding-top: 1.5%; padding-bottom: 1.5%; border: 2px solid black;
 	
