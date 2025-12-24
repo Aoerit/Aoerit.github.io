@@ -55,14 +55,21 @@
 	filter: contrast(250%);
 
 }
-
 .spark-mc:hover
 {
 	animation: anim-pulse 4s infinite ease-in alternate-reverse;	
 }
+.gear-hover:hover
+{
+	filter: contrast(150%);
+	transition: 3s;
+}
 #video-loop:hover
 {
 	opacity: 0.8;
+	transform: scale(2);
+	transition: 3s;
+	left: 50%;
 }
 .anim-btn
 {
@@ -70,7 +77,6 @@
 	animation: anim-pulse 10s infinite ease-in;
 	/* animation-name: anim-pulse; animation-duration: 5s; animation-iteration-count: infinite;
 	animation-timing-function: ease-in; animation-direction: alternate; */
-	
 }
 
 /* Splash Page Setup*/
@@ -107,10 +113,12 @@
 {
 	opacity: 0.8;
 	transform: scale(1.5);
+	transition: 0.3s;
 }
 .contact:hover
 {
-	transform: scale(1.5);
+	transform: scale(2);
+	transition: 0.3s;
 }
 
 /*Service Icons Simple Anims */
@@ -133,6 +141,7 @@
 	transition: 0.3s;
 }
 /*CSS Gear animations */
+
 .gear
 {
 	
@@ -149,42 +158,9 @@
 	width: max(25%); height: auto;
 	animation-name: rotating-gear; animation-duration: 7s; animation-iteration-count: infinite;
 	animation-timing-function: ease-in;  
-}
+}	
 .gear-edit
 {
 	width: max(20%);
 	left: 3%;
-}
-.gear1
-{
-	position: relative;
-	/* z-index: -2; */
-	left: max(2%);
-	width: 30%; height: auto;
-	animation-name: rotating-gear; animation-duration: 7s; animation-iteration-count: infinite;
-	animation-timing-function: ease-in;  
-}
-.gear2
-{
-	position: relative;
-	/* z-index: -2; */
-	left: max(2%);
-	margin-top: min(40%);
-	margin-top: max(80%);
-	width: 25%; height: auto; animation: alternate;
-	animation-name: rotating-gear; animation-duration: 4s; animation-iteration-count: infinite;
-	animation-timing-function: ease-in;  
-	
-}
-.gear3
-{
-	position: relative;
-	/* z-index: -2; */
-	left: max(2%);
-	margin-top: min(80%);
-	margin-top: max(160%);
-	width: 30%; height: auto; animation: alternate;
-	animation-name: rotating-gear; animation-duration: 7s; animation-iteration-count: infinite;
-	animation-timing-function: ease-in;  
-	
 }
