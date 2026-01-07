@@ -151,6 +151,11 @@ body
 	max-width: 250px;
 	min-height: 25px;
 	max-height: 125px;
+	color: rgb(255,242,202);
+	color: -moz-linear-gradient(180deg, rgba(255,242,202,1) 0%, rgba(233,216,164,1) 25%, rgba(214,194,132,1) 50%, rgba(188,162,87,1) 75%, rgba(170,141,56,1) 100%);
+	color: -webkit-linear-gradient(180deg, rgba(255,242,202,1) 0%, rgba(233,216,164,1) 25%, rgba(214,194,132,1) 50%, rgba(188,162,87,1) 75%, rgba(170,141,56,1) 100%);
+	color: linear-gradient(180deg, rgba(255,242,202,1) 0%, rgba(233,216,164,1) 25%, rgba(214,194,132,1) 50%, rgba(188,162,87,1) 75%, rgba(170,141,56,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fff2ca",endColorstr="#aa8d38",GradientType=1); 
 	
 	
 }

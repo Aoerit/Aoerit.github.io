@@ -74,7 +74,7 @@
 .anim-btn
 {
 	margin-bottom: 10%;
-	animation: anim-pulse 10s infinite ease-in;
+	animation: anim-pulse 3s infinite ease-in;
 	/* animation-name: anim-pulse; animation-duration: 5s; animation-iteration-count: infinite;
 	animation-timing-function: ease-in; animation-direction: alternate; */
 }
