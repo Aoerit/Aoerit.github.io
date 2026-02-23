@@ -34,15 +34,19 @@
 	<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
 	rel="stylesheet">
 <!--Internal Stylesheets Bootstrap -->
-	<!-- <link href="Scripts/cs/bootstrap.min.css" rel="stylesheet"> -->
+	<link href="Scripts/cs/bootstrap.min.css" rel="stylesheet"> 
+	<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.14.2/jquery-ui.js" integrity="sha256-zKbi8I2J5A9/AtXEXqfqZN23Mt1wpVcyEDYCF/PSYKw=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.js" integrity="sha256-1PYCpx/EXA36KN1NKrK7auaTylVyk01D98R7Ccf04Bc=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/color/jquery.color-3.0.0.js" integrity="sha256-nXuT4oV5wsIpHV/V7Ay53Vf/1rg2lqpiGWoP9CRk2tM=" crossorigin="anonymous"></script>
 	
 </head>
 <body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
- <!--Extra JS/CSS Scripts-->
-	<!-- <script src="Scripts/js/bootstrap.bundle.min.js"></script>   -->
-
+ <!--Extra JS/CSS Scripts -->
+<script src="https://player.vimeo.com/api/player.js"></script>
+	<script type="text/javascript" src="Scripts/js/jq-script.js"></script>
     <!-- Page Layout -->
 	
     <!-- Nav Bar with Brand attached. Note: currently using the Bootstrap example for this -->
@@ -83,7 +87,7 @@
       </div>
 
    <!-- Anim Bar -->	
-	<section class="anim-block1">
+	<section class="anim-block1 drag resize">
 	<img style="bottom: max(7.5%);"  class="gear-main" src="Images/SVG/Gear_Alt.svg" alt="rotating gear"></img>
 	</section>
 	
@@ -348,7 +352,7 @@
 	</div>
 	</div>
 	   <!-- Anim Bar -->	
-	<section class="anim-block1">
+	<section class="anim-block1 drag resize">
 	<img class="gear-main gear-edit gear-hover" src="Images/SVG/Gear_Alt.svg" alt="rotating gear" style="bottom: 5%;"></img>
 	</section>
       <!-- Copyright Bar -->
