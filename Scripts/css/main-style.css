@@ -134,7 +134,10 @@ body
 {	
 	padding-top: 100px;
 }
-
+.boxing
+{
+	margin: 5%;
+}
 #logo
 {
 	width: 45%;
