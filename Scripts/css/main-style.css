@@ -8,13 +8,13 @@
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#333377",GradientType=1);  
 } */
 #bg{
-	background-image: url("bannerbgmin.png"); 
-	background-image: url("https://github.com/Aoerit/Aoerit.github.io/blob/7b2758db3db6d909b6c073c8bb11282371edf326/Scripts/css/bannerbgmin.png"); 
+	/* background-image: url("bannerbgmin.png");  */
+	background-image: url("https://github.com/Aoerit/Aoerit.github.io/raw/refs/heads/main/Scripts/css/bannerbgmin.png"); 
 	background-size: cover; background-position: center;  height: 125vh; width: 105vw; 
 }
 .bg{
-	background-image: url("bannerlongbgmin.png");
-	background-image: url("https://github.com/Aoerit/Aoerit.github.io/blob/7b2758db3db6d909b6c073c8bb11282371edf326/Scripts/css/bannerlongbgmin.png"); 
+	/* background-image: url("bannerlongbgmin.png"); */
+	background-image: url("https://github.com/Aoerit/Aoerit.github.io/refs/heads/main/Scripts/css/bannerlongbgmin.png"); 
 	background-size: cover; background-position: center;  height: 125vh; width: 105vw; 
 }
 /*Fonts */
