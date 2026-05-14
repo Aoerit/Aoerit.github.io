@@ -9,11 +9,11 @@
 } */
 #bg{
 	background-image: url("bannerbgmin.png"); 
-	background-size: cover; background-position: center;  height: 125vh; width: 100vw; 
+	background-size: cover; background-position: center;  height: 125vh; width: 105vw; 
 }
 .bg{
 	background-image: url("bannerlongbgmin.png"); 
-	background-size: cover; background-position: center;  height: 125vh; width: 100vw; 
+	background-size: cover; background-position: center;  height: 125vh; width: 105vw; 
 }
 /*Fonts */
 .kanit-thin {
