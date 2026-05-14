@@ -12,9 +12,9 @@
 	background-image: url("https://github.com/Aoerit/Aoerit.github.io/raw/refs/heads/main/Scripts/css/bannerbgmin.png"); 
 	background-size: cover; background-position: center;  height: 125vh; width: 105vw; 
 }
-.bg{
+.bg-1{
 	/* background-image: url("bannerlongbgmin.png"); */
-	background-image: url("https://github.com/Aoerit/Aoerit.github.io/refs/heads/main/Scripts/css/bannerlongbgmin.png"); 
+	background-image: url("https://github.com/Aoerit/Aoerit.github.io/raw/refs/heads/main/Scripts/css/bannerlongbgmin.png"); 
 	background-size: cover; background-position: center;  height: 125vh; width: 105vw; 
 }
 /*Fonts */
